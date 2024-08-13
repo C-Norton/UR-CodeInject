@@ -89,7 +89,7 @@ h1, .h1,h2, .h2, h2 > a, h3 > a, h3 {
     display: table-header-group;
 }
 /* changing order of the content after expand all/collapse all btn, hiding resize bar */
-.row.has-resizable-content, #notes_row {
+/* .row.has-resizable-content, #notes_row {
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
@@ -98,7 +98,7 @@ h1, .h1,h2, .h2, h2 > a, h3 > a, h3 {
 
 #accessible_slider {
 	display: none;
-}
+} */
 
 /* changing color and position of resize bar
 @media (min-width: 992px) {
@@ -218,7 +218,7 @@ font-size: 1.5rem;
 }
 
 /* changing the position of filter bar to the left */
-#content .row:nth-child(3){
+/* #content .row:nth-child(3){
     display:flex;
     flex-direction: row-reverse;
 }
@@ -232,7 +232,7 @@ div#main-content.row.resources,
 
 div#main-content.repositories {
     flex-direction: column;
-}
+} */
 
 
 /* changing the position of objects */
