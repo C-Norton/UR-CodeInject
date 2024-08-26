@@ -88,17 +88,7 @@ h1, .h1,h2, .h2, h2 > a, h3 > a, h3 {
 .bioghist.single_note{
     display: table-header-group;
 }
-/* changing order of the content after expand all/collapse all btn, hiding resize bar */
-/* .row.has-resizable-content, #notes_row {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 100%;
-}
 
-
-#accessible_slider {
-	display: none;
-} */
 
 /* changing color and position of resize bar
 @media (min-width: 992px) {
