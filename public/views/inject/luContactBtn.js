@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
   const blueNavbar = document.querySelector(
     "#collapsemenu .nav.nav.navbar-nav"
   );
+  const classificationBtn = document.createElement("li");
   const contactUsBtn = document.createElement("li");
   contactUsBtn.innerHTML = `
       <div class="dropdown" data-dropdown>
@@ -21,7 +22,12 @@ document.addEventListener("DOMContentLoaded", function (e) {
       </div>
     </div>
   `;
+
+  classificationBtn.innerHTML = `
+<a href="https://archives.lib.rochester.edu/classifications">Classifications</a>
+  `;
   blueNavbar.appendChild(contactUsBtn);
+  blueNavbar.appendChild(classificationBtn);
 });
 
 document.addEventListener("click", (e) => {
@@ -40,14 +46,5 @@ document.addEventListener("click", (e) => {
   });
 });
 
-/* Classification button on blue navbar */
-document.addEventListener("DOMContentLoaded", function (e) {
-  const mainNavbar = document.querySelector(
-    "#collapsemenu .nav.nav.navbar-nav"
-  );
-  const classificationBtn = document.createElement("li");
-  classificationBtn.innerHTML = `
-<a href="https://archives.lib.rochester.edu/classifications">Classifications</a>
-  `
-  mainNavbar.appendChild(classificationBtn);
-                          )};
+
+
