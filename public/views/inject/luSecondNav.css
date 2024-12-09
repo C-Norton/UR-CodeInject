@@ -88,17 +88,7 @@ h1, .h1,h2, .h2, h2 > a, h3 > a, h3 {
 .bioghist.single_note{
     display: table-header-group;
 }
-/* changing order of the content after expand all/collapse all btn, hiding resize bar */
-.row.has-resizable-content, #notes_row {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 100%;
-}
 
-
-#accessible_slider {
-	display: none;
-}
 
 /* changing color and position of resize bar
 @media (min-width: 992px) {
@@ -218,7 +208,7 @@ font-size: 1.5rem;
 }
 
 /* changing the position of filter bar to the left */
-#content .row:nth-child(3){
+/* #content .row:nth-child(3){
     display:flex;
     flex-direction: row-reverse;
 }
@@ -232,7 +222,7 @@ div#main-content.row.resources,
 
 div#main-content.repositories {
     flex-direction: column;
-}
+} */
 
 
 /* changing the position of objects */
@@ -271,6 +261,15 @@ div#main-content.repositories {
   display: none;
 }
 
+/* Hiding Contact header in Repository page */
+
+.badge-and-identifier .clear .description p:nth-child(1) {
+    display: none;
+}
+
+.badge-and-identifier .clear .description p:nth-child(2) {
+    margin-top: 1em;
+}
 @media (max-width: 992px) {
 .row.has-resizable-content, #notes_row {
     flex-direction: column;
